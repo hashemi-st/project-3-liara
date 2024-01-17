@@ -1,18 +1,10 @@
-// {
-//     "compilerOptions": {
-//         "target": "ES6",
-//         "module": "CommonJS",
-//         "strict": true,
-        
-//     }
-// }
-
 {
     "compilerOptions": {
       "target": "es2019",
       "module": "commonjs",
       "declaration": true,
       "outDir": "./dist",
+      "rootDir": "./src"
     },
     "include": [
         "src/**/*"
