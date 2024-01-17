@@ -1,0 +1,23 @@
+{
+  "name": "hashemiexpress",
+  "version": "1.0.0",
+  "description": "a farmework with usage like expressjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon mohammadexpress.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
